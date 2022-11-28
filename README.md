@@ -4,12 +4,13 @@ A complete information of the test function suite for
 1st and 2nd International Contest on Evolutionary Optimization (ICEO) is reproduced here.
 
 * Here all 7 functions of 2nd ICEO and original source codes are excavated from web archive.
-* The original source we used is here : http://iridia.ulbac.be/~aroli/ICEO/Functions/Functions.html.
+* The original source we used was here (link not found) : http://iridia.ulbac.be/~aroli/ICEO/Functions/Functions.html.
 * It has been searched at the wayback machine : https://web.archive.org/
+* A screenshot of the web page is also included in this git repository : 1996_2nd_ICEO_Test_Problems_by_Seront.pdf
 
 * Among 5 test functions of 1st ICEO, 2 of them seems the same with those used in 2nd ICEO.
 * Thus, 2 test functions (Sphere and Griewank) is also reproduced here.
-* All of them are rewritten in C++ for convenience.
+* All of them are rewritten in C++ for convenience with a test code to check consistency.
 
 ### 1. The Sphere Model (1st ICEO)
 $$f({\bf x}) = \sum_{i=1}^{N} (x_{i} - 1)^{2}, $$<br />
@@ -186,3 +187,4 @@ where
 ## References
 1. H. Bersini, M. Dorigo, S. Langerman, G. Seront and L. Gambardella, "Results of the first international contest on evolutionary optimisation (1st ICEO)," Proceedings of IEEE International Conference on Evolutionary Computation, 1996, pp. 611-615. https://ieeexplore.ieee.org/document/542670
 2. K. V. Price, "Differential evolution vs. the functions of the 2/sup nd/ ICEO," Proceedings of 1997 IEEE International Conference on Evolutionary Computation (ICEC '97), 1997, pp. 153-157. https://ieeexplore.ieee.org/document/592287
+
