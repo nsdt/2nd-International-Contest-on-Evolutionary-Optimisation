@@ -1,4 +1,5 @@
 **THIS PAGE IS UNDER REVISIONS -- still not complete** 
+***
 
 A complete information of the test function suite for 
 1st and 2nd International Contest on Evolutionary Optimization (ICEO) is reproduced here.
@@ -183,9 +184,16 @@ with the search range is $-32768 \le {\bf x} \le 32768$.
 
 ### 10. The Bump function
 $$f({\bf x}) = \left| \frac{ \displaystyle\sum_{i=1}^{N} \cos^{4}(x_{i}) - 2 \prod_{i=1}^{N} \cos^{2}(x_{i}) }{ \displaystyle\sqrt{ \sum_{i=1}^{N} ix_{i}^{2} } } \right|, $$<br />
-where 
+where the following constraints are subjected 
+$$\prod_{i=1}^{N} x_{i} \ge 0.75$$ and $$\prod_{i=1}^{N} x_{i} \le 7.5N.$$
+The search range is $0 \le {\bf x} \le 10$.
+For 2nd ICEO, $N=10$ and $20$ are experimented.
 
 ## References
-1. H. Bersini, M. Dorigo, S. Langerman, G. Seront and L. Gambardella, "Results of the first international contest on evolutionary optimisation (1st ICEO)," Proceedings of IEEE International Conference on Evolutionary Computation, 1996, pp. 611-615. https://ieeexplore.ieee.org/document/542670
-2. K. V. Price, "Differential evolution vs. the functions of the 2/sup nd/ ICEO," Proceedings of 1997 IEEE International Conference on Evolutionary Computation (ICEC '97), 1997, pp. 153-157. https://ieeexplore.ieee.org/document/592287
+1. A report of the 1st ICEO.<br />
+H. Bersini, M. Dorigo, S. Langerman, G. Seront and L. Gambardella, "Results of the first international contest on evolutionary optimisation (1st ICEO)," Proceedings of IEEE International Conference on Evolutionary Computation, 1996, pp. 611-615. https://ieeexplore.ieee.org/document/542670
+2. A result of application of the differential evolution to the 2nd ICEO test functions.<br />
+K. V. Price, "Differential evolution vs. the functions of the 2nd ICEO," Proceedings of 1997 IEEE International Conference on Evolutionary Computation (ICEC '97), 1997, pp. 153-157. https://ieeexplore.ieee.org/document/592287
+3. A more detailed description of test problems of 1st and 2nd ICEO in Appendix.<br />
+K. V. Price, R. M. Storn, J. A. Lampinen, "Differential Evolution -A Practical Approach to Global Optimization," Springer-Verlag, Berlin, 2005.
 
