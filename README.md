@@ -183,7 +183,7 @@ For $N = 17$, the global minimum is $f({\bf x}^{\*}) = $ at  ${\bf x}^{\*} = \{\
 with the search range is $-32768 \le {\bf x} \le 32768$.
 
 ### 10. The Bump function
-$$f({\bf x}) = \left| \frac{ \displaystyle\sum_{i=1}^{N} \cos^{4}(x_{i}) - 2 \prod_{i=1}^{N} \cos^{2}(x_{i}) }{ \displaystyle\sqrt{ \sum_{i=1}^{N} ix_{i}^{2} } } \right|, $$<br />
+$$f({\bf x}) =  \frac{ \left| \displaystyle\sum_{i=1}^{N} \cos^{4}(x_{i}) - 2 \prod_{i=1}^{N} \cos^{2}(x_{i}) \right| }{ \displaystyle\sqrt{ \sum_{i=1}^{N} ix_{i}^{2} } } , $$<br />
 where the following constraints are subjected 
 $$\prod_{i=1}^{N} x_{i} \ge 0.75$$ and $$\prod_{i=1}^{N} x_{i} \le 7.5N.$$
 The search range is $0 \le {\bf x} \le 10$.
